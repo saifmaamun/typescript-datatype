@@ -1,11 +1,14 @@
 const user: {
+  nationality: "Bangladesh"; //literal type
   name: string;
   age: number;
   occupation: string;
-  married: boolean;
+  isMarried: boolean;
+  sallary?: number; //optional
 } = {
+  nationality: "Bangladesh",
   name: "mamun",
   age: 28,
   occupation: "admin",
-  married: false,
+  isMarried: false,
 };
