@@ -21,3 +21,7 @@ const student: {
     return `My mark is${this.marks + mark}`;
   },
 };
+
+const numArray: number[] = [5, 6, 8, 17, 3];
+
+const squreNums: number[] = numArray.map((elem: number): number => elem * elem);
